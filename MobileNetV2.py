@@ -18,7 +18,6 @@ from tensorflow.keras.applications.efficientnet import preprocess_input as eff_p
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import LabelEncoder
 from sklearn.metrics import classification_report
-bbbbbbbbbbbbbbb
 
 from datasets import Dataset
 import torch
