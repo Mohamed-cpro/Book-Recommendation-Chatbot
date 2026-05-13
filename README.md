@@ -355,16 +355,6 @@ Full per-class precision / recall / F1 is printed at the end of Section 18 of th
 | **Custom inference cleaner (`clean_text_inference`)** | Uses stopwords removal only — not leaky-word removal — so queries like "I want cooking books" are not stripped of the word "cooking" before classification. |
 
 ---
-
-## Future Work
-
-- [ ] Add model selector (let user choose CNN 1 / 2 / 3 and RNN 1 / 2 / 3 from the UI)
-- [ ] Expand categories beyond the current four
-- [ ] Add a confidence threshold: fall back to a generic recommendation list when confidence < 60 %
-- [ ] Integrate Open Library's live search API so recommendations are always fresh
-- [ ] Deploy on Streamlit Community Cloud / Hugging Face Spaces
-- [ ] Add user feedback loop to improve model rankings over time
-
 ---
 
 ## Data Source
